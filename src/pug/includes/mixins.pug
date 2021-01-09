@@ -1,0 +1,37 @@
+mixin icon(name,mod)
+	- mod = mod || ''
+	svg(class="icon icon-" + name + ' ' + mod)
+		use(xlink:href="/img/svg/sprite.svg#" + name)
+
+mixin product(img)
+	.product
+		.product__status В наличии
+
+		.product__img
+			a(href="#")
+				img(src="img/" + img)
+
+		h5.product-title
+			a(href="#") Jaguar, ножницы Pastell Plus 5,5”, лиловые
+
+		.product-article Профессиональные прямые ножницы для стрижки волос
+
+		.product__bottom
+			.product__column
+				.price-top цена от
+				.product__price 4 700 руб.
+
+			.product__column
+				a(href="#").btn.product__btn Купить
+
+mixin productslider
+	.product-slider.swiper-container
+		.swiper-wrapper
+			.swiper-slide
+				+product('prod-1.png')
+			.swiper-slide
+				+product('prod-2.png')
+			.swiper-slide
+				+product('prod-3.png')
+			.swiper-slide
+				+product('prod-4.png')

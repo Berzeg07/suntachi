@@ -1,0 +1,153 @@
+.content
+    .top-gallery-wrap
+        .container
+            .top-gallery.swiper-container
+                .swiper-wrapper
+                    .swiper-slide
+                        .top-gallery__item
+                            .top-gallery__column
+                                .top-gallery__title Профессиональный инструмент для парикмахера
+                                a(href="#").btn Смотреть
+
+                            .top-gallery__column
+                                .top-gallery__img 
+                                    img(src="img/noj.png")
+
+                    .swiper-slide
+                        .top-gallery__item
+                            .top-gallery__column
+                                .top-gallery__title Профессиональный инструмент для парикмахера
+                                a(href="#").btn Смотреть
+
+                            .top-gallery__column
+                                .top-gallery__img 
+                                    img(src="img/noj.png")
+
+                    .swiper-slide
+                        .top-gallery__item
+                            .top-gallery__column
+                                .top-gallery__title Профессиональный инструмент для парикмахера
+                                a(href="#").btn Смотреть
+
+                            .top-gallery__column
+                                .top-gallery__img 
+                                    img(src="img/noj.png")
+
+                .swiper-pagination
+
+    .container
+        .productions
+            h2.main-title Продукция 
+            .tab-block
+                .tabs-btn
+                    span(data-tab="#populartab").tabs-btn__el Выбор покупателей
+                    span(data-tab="#recomtab").tabs-btn__el Рекомендуем
+                    span(data-tab="#newstab").tabs-btn__el Новинки
+
+                .slider-arrows    
+                    .swiper-button-prev.prod-slider-prev        
+                    .swiper-button-next.prod-slider-next
+
+
+            .action-tab#populartab
+                +productslider
+
+            .action-tab#recomtab
+                +productslider
+
+            .action-tab#newstab
+                +productslider
+
+    .actions
+        .container
+            h2.main-title Новости и акции
+            .actions__item
+                .actions__column
+                    .actionbanner
+                        .actionbanner__column
+                            .actionbanner__top Акция
+
+                            .actionbanner__title
+                                span -30% 
+                                |на вторые ножницы suntachi
+
+                            .actionbanner__article Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.
+
+                            a(href="#").btn-white Смотреть
+
+                        .actionbanner__column
+                            .actionbanner__img
+                                img(src="img/gold-n.png")
+
+                .actions__column
+                    ul.actionlist
+                        li
+                            .actionlist__info
+                                .actionlist__title новинка akitz
+                                .actionlist__article Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                a(href="#").btn-white Смотреть
+                            .actionlist__img
+                                img(src="img/act-1-2.png")
+                        li
+                            .actionlist__info
+                                .actionlist__title мастер-класс
+                                .actionlist__date 19.12.2020
+                                .actionlist__article Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                a(href="#").btn-white Смотреть
+
+    .aboutcompany.container
+        h2.main-title О компании
+        .aboutcompany__item
+            .aboutcompany__column
+                .aboutcompany__img
+                    img(src="img/ab-bg.png")
+
+            .aboutcompany__column
+                ul.advantages
+                    li
+                        .advantages__img
+                            img(src="img/ab-icon-1.svg")
+                        .advantages__article 30 лет<br> работы
+                    li
+                        .advantages__img
+                            img(src="img/ab-icon-2.svg")
+                        .advantages__article японский<br> металл hitachi
+                    li
+                        .advantages__img
+                            img(src="img/ab-icon-3.svg")
+                        .advantages__article стандартизация<br> iso 14011
+
+                .aboutcompany__text
+                    p Молодая и креативная компания А-TECH была основана в 1996 году. Во всем мире она больше известна под названием своего бренда Suntachi (sun, touch – прикосновение к солнцу). Центральный офис и производство расположено в городе Инчон, Южная Корея. Продукция Suntachi экспортируется в страны Европы, Азии, Америки, Австралии, России. Сейчас компания создала новый бренд, продукция которого позиционируется уже как премиум класс – это серия Akitz.
+                    p В 2006 году компания получила международный сертификат стандартизации ISO 14001. На сегодняшний день продукция ТМ Suntachi представлена более чем в 50 странах, среди которых США, Италия, ОАЭ, Франция, страны Южной Америки, Австралия и Россия.
+
+                a(href="#").btn.aboutcompany__btn Подробнее о бренде
+
+    .popsearch.container
+        h2.main-title часто ищут
+
+        ul.tagslist
+            li
+                a(href="#") Ножницы Suntachi
+            li
+                a(href="#") Ножницы Akitz
+            li
+                a(href="#") Suntachi Classic
+            li
+                a(href="#") Suntachi Salon Design
+            li
+                a(href="#") Suntachi Lux
+            li
+                a(href="#") Ножницы Suntachi
+            li
+                a(href="#") Suntachi Premium
+            li
+                a(href="#") Ножницы Akitz
+            li
+                a(href="#") Suntachi Classic
+            li
+                a(href="#") Suntachi Ideal
+            li
+                a(href="#") Suntachi Lux
+            li
+                a(href="#") Ножницы Suntachi
