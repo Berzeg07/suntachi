@@ -52,4 +52,29 @@ $(document).ready(function () {
         $('.modal-city, .overlay').fadeOut()
         $('.header__city').html(text)
     })
+
+    $(".catalog-list__more").click(function () {
+        var $this = $(this);
+
+        if (!$this.hasClass("is-active")) {
+            $(".catalog-list__inner").slideUp();
+            $(".catalog-list__more").removeClass("is-active");
+        }
+
+        $this.toggleClass("is-active");
+        $this.next().slideToggle();
+    });
+
+    $(".catalog-list__more:first").click();
+
+    $('.tagslist__more-btn').click(function (e) {
+        e.preventDefault()
+        $(this).toggleClass('is-active')
+        $('.tagslist_catalog').toggleClass('is-active')
+        if ($(this).hasClass('is-active')) {
+            $(this).html('Свернуть')
+        } else {
+            $(this).html('Показать еще')
+        }
+    })
 });
