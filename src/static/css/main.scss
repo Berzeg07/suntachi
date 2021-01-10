@@ -1049,3 +1049,143 @@
     height: 17px;
     background: url("../img/right-m.svg") no-repeat center;
 }
+
+.fotorama__nav-wrap {
+    padding-top: 14px;
+}
+
+.fotorama__arr--next {
+    width: 43px;
+    height: 43px;
+    border-radius: 10em;
+    background: #FFFFFF url("../img/ft-r.png") no-repeat center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    right: 20px;
+}
+
+.fotorama__arr--prev {
+    width: 43px;
+    height: 43px;
+    border-radius: 10em;
+    background: #FFFFFF url("../img/ft-l.png") no-repeat center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    left: 20px;
+}
+
+.productcard__top {
+    display: flex;
+    margin-bottom: 89px;
+}
+
+.productcard__left {
+    width: 412px;
+}
+
+.productcard__right {
+    width: calc(100% - 412px);
+    padding-left: 75px;
+}
+
+.productcard__status {
+    background: #ECE7C6;
+    border-radius: 15px;
+    padding: 6px 20px;
+    display: inline-block;
+    color: #C5BC84;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.productcard__title {
+    font-family: "Exo2Medium";
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.productcard__sub-title {
+    color: #A6BFC0;
+    margin-bottom: 36px;
+    font-size: 17px;
+}
+
+.productcard__info {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 58px;
+
+    .productcard__info-column {
+        &:first-child {
+            width: calc(100% - 304px);
+            padding-right: 16px;
+        }
+
+        &:last-child {
+            padding: 23px 36px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            width: 304px;
+        }
+    }
+}
+
+.productcard__list {
+    li {
+        font-size: 17px;
+
+        span {
+            &:last-child {
+                color: #A6BFC0;
+            }
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 18px;
+        }
+    }
+}
+
+.productcard__pricetop {
+    color: #A6BFC0;
+    margin-bottom: 7px;
+}
+
+.productcard__price {
+    font-family: "Exo2Bold";
+    color: #232323;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.tab-block__product {
+    margin-bottom: 43px;
+}
+
+.action-tab_product {
+    font-size: 18px;
+
+    p {
+        margin-bottom: 16px;
+    }
+}
+
+.similarproducts__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 58px;
+
+    .main-title {
+        margin-bottom: 0;
+    }
+}
+
+.similarproducts {
+    margin-bottom: 118px;
+}
+
+.productcard__btn {
+    width: 237px;
+    height: 44px;
+    line-height: 44px;
+}

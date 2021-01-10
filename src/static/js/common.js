@@ -77,4 +77,11 @@ $(document).ready(function () {
             $(this).html('Показать еще')
         }
     })
+
+    $('.fotorama').fotorama({
+        thumbwidth: 130,
+        thumbheight: 130
+    });
 });
+
+
